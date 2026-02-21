@@ -1,0 +1,11 @@
+{
+    "buildCommand": "if [ ! -d \"flutter\" ]; then git clone https://github.com/flutter/flutter.git --depth 1 -b stable; fi && cd portfolio_hanan && ../flutter/bin/flutter build web --release",
+    "outputDirectory": "portfolio_hanan/build/web",
+    "installCommand": "echo 'skipping default install'",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}

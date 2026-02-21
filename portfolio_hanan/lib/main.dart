@@ -45,7 +45,7 @@ class HananPortfolio extends StatelessWidget {
 const kBg = Color(0xFF080808);
 const kCard = Color(0xFF121212);
 const kCardHover = Color(0xFF1A1A1A);
-const kAccent = Color(0xFFFF4D00); // More vibrant orange/coral
+const kAccent = Color(0xFFFF4D00); 
 const kAccentLight = Color(0xFFFF6A2E);
 const kAccentGlow = Color(0xFFFF4D00);
 const kBorder = Color(0xFF222222);
@@ -225,7 +225,6 @@ class _NavBar extends StatelessWidget {
                   _NavLink(label: 'Home', onTap: onHome),
                   _NavLink(label: 'Services', onTap: onServices),
                   _NavLink(label: 'About', onTap: onAbout),
-                  // _NavLink(label: 'Portfolio', onTap: onWork),
                   const SizedBox(width: 20),
                 ],
                 _ModernBtn(
@@ -854,7 +853,6 @@ class _SkillCircle extends StatelessWidget {
   }
 }
 
-// (Dot grid painter removed for modern minimalist look)
 
 class _AboutInfo extends StatelessWidget {
   final String label, value;
@@ -1282,7 +1280,6 @@ class _ContactInfoCard extends StatelessWidget {
   }
 }
 
-// _FormInput removed
 
 // ─── FOOTER ───────────────────────────────────────────────────────────────────
 class _Footer extends StatelessWidget {
@@ -1640,4 +1637,3 @@ class _ScrollRevealState extends State<_ScrollReveal>
   }
 }
 
-// ─── END OF FILE ─────────────────────────────────────────────────────────────
